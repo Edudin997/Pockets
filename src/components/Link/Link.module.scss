@@ -1,0 +1,8 @@
+@use '../../assets//styles/colors';
+
+.link {
+  color: colors.$brand;
+  &:hover {
+    text-decoration: none;
+  }
+}

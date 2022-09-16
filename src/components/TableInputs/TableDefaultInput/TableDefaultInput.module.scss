@@ -1,0 +1,36 @@
+@use '../../../assets/styles/colors';
+
+.input {
+  font-size: 16px;
+  background: #17181C;
+  width: 100%;
+  border: none;
+  color: #fff;
+
+  &__align-left {
+    text-align: left;
+  }
+  &__align-center {
+    text-align: center;
+  }
+  &__align-right {
+    text-align: right;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+.input:focus-visible {
+  outline: none;
+
+  &::placeholder {
+    opacity: 0;
+  }
+}
+
+.input:first-child {
+  border-left: none;
+}

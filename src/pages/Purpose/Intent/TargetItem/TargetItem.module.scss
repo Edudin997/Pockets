@@ -1,0 +1,53 @@
+.item {
+  position: relative;
+  height: 295px;
+  min-width: 280px;
+  padding: 20px 16px 24px 16px;
+  background: #17181C;
+  border-radius: 24px 0px 24px 24px;
+  .item__header {
+    display: flex;
+    gap: 16px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .closed {
+    pointer-events: none;
+  }
+  &::before {
+    content: url('../../../../assets/icons/bgTarget.svg');
+    position: absolute;
+    top: -17px;
+    right: 0;
+  }
+}
+
+.chart {
+  position: absolute;
+  width: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+  
+.amount {
+  display: flex;
+}
+
+.percent {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+

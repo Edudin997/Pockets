@@ -1,0 +1,38 @@
+@use './colors';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(117.02deg, #131517 0.55%, #191A23 100%);
+}
+
+body *::-webkit-scrollbar {
+  width: 13px;
+}
+
+body *::-webkit-scrollbar-thumb {
+  width: 13px;
+  border-radius: 3px;
+  background-color: colors.$brand;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  background-color: transparent;
+}

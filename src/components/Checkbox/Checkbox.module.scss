@@ -1,0 +1,33 @@
+@use '../../assets/styles/colors';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.pseudoCheckbox {
+  border-radius: 4px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: #070707;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  &__checked::after {
+    content: '';
+    mask-image: url('../../assets/icons/check.svg');
+    background-color: #5D5FEF;
+    width: 12px;
+    height: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.hiddenInput {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.deleteTextWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  button {
+    box-shadow: none;
+  }
+}
+  
+.rowButtons {
+  display: flex;
+  gap: 8px;
+}

@@ -1,0 +1,84 @@
+@use '../../../assets/styles/colors';
+
+.selectWrapper {
+  display: flex;
+  min-width: 135px;
+}
+
+.row {
+  display: flex;
+}
+
+.selector {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  &:disabled {
+    color: black;
+    cursor: default;
+  }
+}
+
+.choosedOption {
+  text-align: center;
+}
+
+.defaultOption {
+  text-align: center;
+  color: colors.$default;
+}
+
+.arrow {
+  position: relative;
+  top: -1px;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+  top: 2px;
+  transform: rotate(180deg);
+}
+
+.row__flex {
+  flex: 1 1;
+  margin: 0 10px;
+  max-height: 19px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.dropdown {
+  width: 100%;
+  position: relative;
+  .dropdown__content {
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    top: 195%;
+    right: 0;
+    padding: 8px 0 17px 0;
+    background: linear-gradient(117.02deg, #131517 0.55%, #191A23 100%);
+    box-shadow: 0px 12px 33px -8px rgba(48, 24, 134, 0.11);
+    border-radius: 16px 0px 16px 16px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    .dropdown__item {
+      display: flex;
+      align-items: flex-end;
+      padding: 9px 18px;
+      cursor: pointer;
+      transition: all 0.2s;
+      border-bottom: 1px solid #1f2227;
+      &:hover {
+        svg {
+          path {
+            fill: #5D5FEF;
+          }
+        }
+      }
+    }
+  }
+}

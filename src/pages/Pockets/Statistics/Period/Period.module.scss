@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+  }
+
+.month {
+    width: 150px;
+    padding: 8px;
+    background: #17181C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.year {
+    padding: 8px;
+    background: #17181C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

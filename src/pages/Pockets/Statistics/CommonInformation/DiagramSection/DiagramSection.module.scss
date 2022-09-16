@@ -1,0 +1,36 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .circle{
+      width: 140px;
+    }
+  }
+  
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  width: 160px;
+  background: #17181C;
+  border-radius: 16px;
+  justify-content: center;
+  .category {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  i {
+    display: block;
+    width: 16px;
+    height: 8px;
+  }
+}
+
+.empty {
+  width: 100%;
+  margin-top: 10px;
+}

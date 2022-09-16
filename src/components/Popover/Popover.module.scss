@@ -1,0 +1,12 @@
+.wrapper {
+  position: relative;
+  width: 160px;
+  padding-left: 16px;
+}
+
+.contentWrapper {
+  position: absolute;
+  right: 4px;
+  bottom: 45px;
+  z-index: 10;
+}

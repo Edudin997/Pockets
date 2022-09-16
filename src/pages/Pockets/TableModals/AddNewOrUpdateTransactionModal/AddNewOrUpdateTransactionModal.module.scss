@@ -1,0 +1,40 @@
+.buttonsWrapper {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.inputsContainer {
+  margin-bottom: 24px;
+  display: flex;
+  background: #17181C;
+  padding: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  align-items: center;
+}
+
+.income {
+  button {
+    border-radius: 1000px 0 0 1000px;
+    padding: 9.5px 24px;
+  }
+}
+
+.consumption {
+  button {
+    border-radius: 0 1000px 1000px 0;
+    padding: 9.5px 24px;
+  }
+}
+
+.amount {
+  width: 115px;
+  border-left: 1px solid hsla(0deg, 0%, 100%, 0.05);
+  padding-right: 8px;
+}
+
+.categories {
+  width: 200px;
+  padding: 0 15px;
+  border-left: 1px solid hsla(0deg, 0%, 100%, 0.05);
+}

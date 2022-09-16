@@ -1,0 +1,81 @@
+.wrapper {
+  background: linear-gradient(145.94deg, #1D2023 1.45%, #22242C 93.91%);
+  border-radius: 24px;
+  padding: 22px 16px 16px;
+  position: relative;
+  width: 65%;
+}
+
+.header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  gap: 16px;
+}
+
+.header__button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.dots {
+  position: absolute;
+  top: -11px;
+  right: 5px;
+}
+
+.more {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: linear-gradient(117.02deg, #131517 0.55%, #191A23 100%);
+  box-shadow: 0px 12px 33px -8px rgba(48, 24, 134, 0.11);
+  z-index: 1;
+  padding: 8px 0;
+  button {
+    justify-content: flex-start;
+  }
+}
+
+.edit {
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.amount {
+  display: flex;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

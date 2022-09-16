@@ -1,0 +1,14 @@
+.wrapper {
+    position: relative;
+    background: linear-gradient(145.94deg, #1D2023 1.45%, #22242C 93.91%);
+    border-radius: 24px;
+    padding: 24px 16px 32px;
+    flex: 1 1 40%;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+}

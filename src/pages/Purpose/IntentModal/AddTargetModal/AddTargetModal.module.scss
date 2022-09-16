@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 0 44px;
+}
+  
+.intent {
+  padding: 12.5px 16px 11px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  background-color: #17181C;
+}
+  
+.items {
+  padding-left: 16px;
+}
+  
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.button {
+  display: flex;
+  justify-content: center;
+}

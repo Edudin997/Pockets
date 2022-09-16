@@ -1,0 +1,50 @@
+@use '../../assets/styles/colors';
+
+.button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &__brand {
+    box-shadow: 0px 4px 13px rgba(81, 83, 205, 0.42);
+    background-color: colors.$brand;
+  }
+
+  &__success {
+    box-shadow: 0px 4px 13px rgba(81, 83, 205, 0.42);
+    background-color: colors.$success;
+  }
+
+  &__closed {
+    background-color: colors.$closed;
+  }
+
+  &__ghost {
+    background-color: transparent;
+  }
+
+}
+
+.button-color {
+  &__brand {
+    background-color: colors.$brand;
+  }
+
+  &__error {
+    background-color: colors.$error;
+  }
+
+  &__closed {
+    background-color: colors.$closed;
+  }
+
+  &__glass {
+    background-color: colors.$glass;
+  }
+
+  &__more {
+    background: linear-gradient(145.94deg, #1D2023 1.45%, #22242C 93.91%);
+  }
+}
